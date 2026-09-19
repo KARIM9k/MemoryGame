@@ -40,6 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -159,12 +160,22 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "KOKO";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(728, 232);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(124, 45);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -200,6 +211,7 @@
         private System.Windows.Forms.Label label5;
 <<<<<<< HEAD
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button7;
 =======
 >>>>>>> c1a9a1a85e33cf05e1cee2f8825bfddae66cdfd5
     }
