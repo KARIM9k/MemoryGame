@@ -28,5 +28,10 @@ namespace MemoryGame
             MessageBox.Show("dsa");
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World"); 
+        }
     }
 }
