@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
+            this.labelA = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -94,9 +95,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(305, 339);
+            this.button5.Location = new System.Drawing.Point(305, 377);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(155, 99);
+            this.button5.Size = new System.Drawing.Size(155, 66);
             this.button5.TabIndex = 5;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -162,15 +163,6 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(320, 252);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(124, 45);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
             this.button7.Location = new System.Drawing.Point(728, 232);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(124, 45);
@@ -178,12 +170,23 @@
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // labelA
+            // 
+            this.labelA.AutoSize = true;
+            this.labelA.Font = new System.Drawing.Font("Myanmar Text", 34.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelA.Location = new System.Drawing.Point(287, 291);
+            this.labelA.Name = "labelA";
+            this.labelA.Size = new System.Drawing.Size(228, 103);
+            this.labelA.TabIndex = 13;
+            this.labelA.Text = "Ahmad";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelA);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -221,6 +224,7 @@
 <<<<<<< HEAD
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label labelA;
 =======
 >>>>>>> c1a9a1a85e33cf05e1cee2f8825bfddae66cdfd5
     }
