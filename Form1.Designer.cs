@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
+            this.labelA = new System.Windows.Forms.Label();
             this.lableKKKKKK = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -95,9 +96,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(305, 339);
+            this.button5.Location = new System.Drawing.Point(305, 377);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(155, 99);
+            this.button5.Size = new System.Drawing.Size(155, 66);
             this.button5.TabIndex = 5;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -170,15 +171,14 @@
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // lableKKKKKK
+            // button7
             // 
-            this.lableKKKKKK.AutoSize = true;
-            this.lableKKKKKK.Font = new System.Drawing.Font("Myanmar Text", 34.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lableKKKKKK.Location = new System.Drawing.Point(287, 132);
-            this.lableKKKKKK.Name = "lableKKKKKK";
-            this.lableKKKKKK.Size = new System.Drawing.Size(217, 103);
-            this.lableKKKKKK.TabIndex = 13;
-            this.lableKKKKKK.Text = "KARIM";
+            this.button7.Location = new System.Drawing.Point(728, 232);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(124, 45);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -186,7 +186,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lableKKKKKK);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -224,7 +223,6 @@
 <<<<<<< HEAD
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label lableKKKKKK;
 =======
 >>>>>>> c1a9a1a85e33cf05e1cee2f8825bfddae66cdfd5
     }
