@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -80,7 +81,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Myanmar Text", 34.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(275, 28);
+            this.label1.Location = new System.Drawing.Point(260, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 103);
             this.label1.TabIndex = 4;
@@ -97,12 +98,22 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(305, 115);
+            this.button6.Location = new System.Drawing.Point(305, 117);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(155, 99);
             this.button6.TabIndex = 6;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Myanmar Text", 34.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(466, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(200, 103);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "KOKO";
             // 
             // Form1
             // 
@@ -110,6 +121,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
@@ -134,6 +146,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label2;
     }
 }
 
