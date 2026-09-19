@@ -162,6 +162,15 @@
             // 
             // button7
             // 
+            this.button7.Location = new System.Drawing.Point(320, 252);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(124, 45);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
             this.button7.Location = new System.Drawing.Point(728, 232);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(124, 45);
