@@ -25,6 +25,7 @@ namespace MemoryGame
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("KOKO");
+            MessageBox.Show("dsa");
 
         }
     }
